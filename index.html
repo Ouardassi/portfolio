@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">El Ouardassi Anas</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">El Ouardassi Anas</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <div>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/WhatsApp Image 2023-07-30 at 15.06.44.jpeg" class="about-pic" alt="El Ouardassi Anas profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Salut, je suis </p>
+      <h1 class="title"> El Ouardassi Anas </h1>
+      <p class="section__text__p2">Etudiant ingénieur topographe</p>
+      <div class="btn-container">
+        
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/email.png" alt="Mon email" class="icon"
+          onclick="location.href='https://mail.google.com/mail/u/1/#inbox?compose=DmwnWrRlQzCTvbQgxqHnWtxjkZGFNwKfHsSjgXkQFcsRRwHksPmxRPHNpzCTMsKKTKvSTZsCrdsQ'" />
+        <img src="./assets/linkedin.png" alt="Mon profile linkedin" class="icon"  
+        onclick="location.href='https://ma.linkedin.com/in/anas-elouardassi-608896285?trk=people-guest_people_search-card'" />
+      </div>
+   
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/IMG-6145.JPG" alt="Profile picture" class="about-pic" />
+      </div>
+
+
+
+      <div class="text-container">
+        <p>
+          <br />
+          <br />
+          <br />
+          <a>Anas El Ouardassi</a>, étudiant ingénieur en sciences géomatiques et topographie, jeune et motivé.
+          Actuellement, il poursuit ses études à l'Institut Agronomique et Vétérinaire Hassan II, il se distingue par sa
+          maîtrise des compétences essentielles pour devenir un ingénieur topographe de renom.
+          Il aspire à devenir un leader dans son domaine, déterminé à mettre en œuvre ses compétences au service de
+          projets novateurs et durables, contribuant ainsi à façonner un avenir meilleur pour notre pays.
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+  
+
+  <section id="Skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="Skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Langues</h2>
+
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3> Arabe </h3>
+                <p> Maternelle </p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3> Français </h3>
+                <p> Niveau C2 </p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3> Anglais </h3>
+                <p> Niveau C1 </p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title"> Logiciels </h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+
+              </div>
+
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> Autocad </h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> Revit </h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> TBC </h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> Arcgis </h3>
+
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3> Erdas </h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <section id="experience">
+    <p class="section__text__p1"> Check my </p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+
+          </div>
+          <h2>
+
+            Stage d'entreprise -Septembre 2023
+          
+
+          </h2>
+          <br/>
+          <p>
+          <div class="par">
+            Ce stage représente une opportunité de mettre en pratique les compétences acquises dans le cadre de ses études, apprendre de nouvelles compétences, et se familiariser avec le fonctionnement du monde professionnel. 
+            Ayant lieu au sein de la société Tra Top pendant le mois de septembre, ce stage m'a forgé en terme de technicité aussi bien qu'en gestion, me permettant ainsi de réaliser de nombreux projets à savoir: 
+          </div>
+          <br/>
+
+          <ul>
+            <li>
+              <p>Etude et préparation d'un dossier technique cas d'une copropriété   </p>
+              <br>
+            </li>
+            <li>
+              <p> Maitrise et manipulation des différents types de Scanner (fixe, statique et mobile): missions terrain et traitement bureau des nuage de points.   </p>
+              <br>
+            </li>
+            <li>
+              <p>Réalisation d'une maquette BIM d'une copropriété.   </p>
+            </li>
+            <br/>
+            <li>
+              <p> Réalisation d'un site Web représentant de données spatiales en format GeoJSON sur un fond cartographique interactif.  </p>
+              
+            </li>
+          </ul>
+
+
+          </p>
+          
+          <img src="assets/TRATOP.png" alt="Project 1" class="projectra-img" />
+
+          
+
+
+
+
+        </div>
+
+      </div>
+      
+      
+    </div>
+
+    
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+
+          </div>
+          <h2>
+
+            Stage de professionnalisme-Juin 2023
+          
+
+          </h2>
+          <br/>
+          <p>
+          <div class="par">
+            Ce stage avait lieu dans les communes rurales SIDI ALLAL EL BAHRAOUI et AIT MALEK, province de KHEMISSET dont le but est d'assurer une bonne maitrise de l'ensemble des opérations et techniques afférentes au domaine. Sous la supervision de nos professeurs, ce stage s'est déroulé en troix phases:  
+          </div>
+          <br/>
+
+          <ul>
+            <li>
+              <p>Phase géodésie: pour une durée de 10 jours, nous étions amenés d'effectuer une densification géodésiques de la zone d'étude et de créer ainsi un ensemble de nouveaux point à utiliser dans les phases subséquentes.  </p>
+              <br>
+            </li>
+            <li>
+              <p>Phase topographie: l'objectif était de lever la zone d'étude située à AIT MALEK, et générer les plans topographiques. </p>
+              <br>
+            </li>
+            <li>
+              <p>Phase photogrammétrie: cette phase avait comme finalité d'élaborer un plan de restitution et un orthophotoplan à partir d'un nombre d'images aériennes.   </p>
+            </li>
+          </ul>
+
+
+          </p>
+          
+          <img src="assets/iav-removebg-preview.png" alt="Project 1" class="projectiav-img" />
+
+          
+
+
+
+
+        </div>
+
+      </div>
+      
+      
+    </div>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+
+          </div>
+          <h2>
+
+            Stage d'observation- Mai 2022
+          
+
+          </h2>
+          <br/>
+          <p>
+          <div class="par">
+            Pour une durée de 21 jours, ce stage était une véritable opportunité pour:
+          </div>
+          <br/>
+
+          <ul>
+            <li>
+              <p>Découvrir l'organisation administrative du cadastre et de la conservation foncière.</p>
+            </li>
+            <li>
+              <p>Se familiariser avec l'ensemble des procédures cadastrales en visitant les différents bureaux de l'organisme. </p>
+            </li>
+            <li>
+              <p>Traiter, sous l'encadrement du chef de cadastre, les différents types de dossiers techniques et affaires subséquentes. </p>
+            </li>
+          </ul>
+
+<br>
+          </p>
+          <img src="assets/ancfcc-maroc-logo-F71E16490C-seeklogo.com-removebg-preview.png" alt="Project 1" class="project-img" />
+
+          
+
+
+
+
+        </div>
+
+      </div>
+      
+      
+    </div>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:elouardassianas@iav.ac.ma"> elouardassianas@iav.ac.ma </a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://ma.linkedin.com/in/anas-elouardassi-608896285?trk=people-guest_people_search-card">anas
+              elouardassi</a></p>
+        </div>
+      </div>
+    </section>
+    
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    <script src="script.js"></script>
+    
+
+</section>
+
+
+
+   
+    
+   
+</body>
+
+</html>
